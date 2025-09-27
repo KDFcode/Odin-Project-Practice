@@ -5,3 +5,16 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-emmet
 Looking over the cheat sheet and the Emmet video overview
 https://docs.emmet.io/cheat-sheet/
 https://www.youtube.com/watch?v=V8vizNQKtx0
+
+
+ 
+
+
+"Additional resources"
+
+"Emmet Keybindings by Andrés Gutiérrez, is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don’t know what to map to which keys.
+https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings
+
+
+Emmet Live by Yurii Semeniuk, is another extension in Visual Studio Code. It can continually generate the corresponding HTML structure while you’re editing Emmet abbreviations. For the desired outcome, try selecting a random piece of text before calling out this extension."
+https://marketplace.visualstudio.com/items?itemName=ysemeniuk.emmet-live
