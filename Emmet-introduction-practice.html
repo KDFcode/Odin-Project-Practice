@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!--style-->
+<style>
+    .class {
+        /* pos:rel */
+
+        position: relative;
+        /* bg */
+        background: #000;
+
+        /* bgc */
+        background-color: #fff;
+
+
+        /* w10 */
+        width: 10px;
+
+        /* w10% */
+        width: 10%;
+        
+        /* h3in */
+        height: 3in;
+
+        /* h3cm */
+        height: 3cm;
+
+
+    }
+</style>
+
+</head>
+<body>
+<!---->
+
+<!--sp-->
+<span></span>
+
+<!--di(v)-->
+<div></div>
+
+<!--a-->
+<a href=""></a>
+
+<!--bu-->
+<button></button>
+
+<!--span.purple-->
+<span class="purple"></span>
+
+<!--span.id-->
+<span class="id"></span>
+
+<!--div.class-1.class-2#id-1-->
+<div class="class-1 class-2" id="id-1"></div>
+
+<!--.class-->
+<div class="class"></div>
+
+
+<!--button[type="button"]-->
+<button type="button"></button>
+
+
+<!--[data-selected]--> 
+<div data-selected=""></div>
+
+
+<!--[data-selected].active--> 
+<div data-selected="" class="active"></div>
+
+
+<!--div.purple>span.cyan--> 
+<div class="purple"><span class="cyan"></span></div>
+
+<!--header>nav>ul--> 
+<header>
+    <nav>
+        <ul></ul>
+    </nav>
+</header>
+
+
+<!--header>nav>ul>li*3{geergre}--> 
+<header>
+    <nav>
+        <ul>
+            <li>geergre</li>
+            <li>geergre</li>
+            <li>geergre</li>
+        </ul>
+    </nav>
+</header>
+
+<!--header>nav>ul>li*3{$}--> 
+<header>
+    <nav>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </nav>
+</header>
+
+
+<!--header>nav>ul>li*3.{List Item $}--> 
+<header>
+    <nav>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </nav>
+</header>
+
+<!--header>nav>ul>li*3.class-${List Item $}--> 
+<header>
+    <nav>
+        <ul>
+            <li class="class-1">List Item 1</li>
+            <li class="class-2">List Item 2</li>
+            <li class="class-3">List Item 3</li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<!--header>nav>ul>li*3.class-${List Item $$}--> 
+<header>
+    <nav>
+        <ul>
+            <li class="class-1">List Item 01</li>
+            <li class="class-2">List Item 02</li>
+            <li class="class-3">List Item 03</li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<!--header+main+footer--> 
+<header></header>
+<main></main>
+<footer></footer>
+
+
+
+
+<!--header>nav+main+footer--> 
+<header>
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+</header>
+
+
+<!--header>nav^+main --> 
+<header>
+    <nav></nav>
+</header>
+<main></main>
+
+
+<!--header>nav^+main+footer--> 
+<header>
+    <nav></nav>
+</header>
+<main></main>
+<footer></footer>
+
+
+<!-- (header>nav)+main+footer-->
+<header>
+    <nav></nav>
+</header>
+<main></main>
+<footer></footer>
+
+<!--(header>h2{Heading}+nav>ol>li*5>a{Link $})+main+footer --> 
+<header>
+    <h2>Heading</h2>
+    <nav>
+        <ol>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+            <li><a href="">Link 5</a></li>
+        </ol>
+    </nav>
+</header>
+<main></main>
+<footer></footer>
+
+
+
+<!--form:post--> 
+<form action="" method="post"></form>
+
+
+<!--form:post>.group>input:b--> 
+<form action="" method="post">
+    <div class="group"><input type="button" value=""></div>
+</form>
+
+
+<!--form:post>.group>input:text--> 
+<form action="" method="post">
+    <div class="group"><input type="text" name="" id=""></div>
+</form>
+
+
+<!--form:post>(.group>label+input:text)+(.group>label+input:number )--> 
+<form action="" method="post">
+    <div class="group"><label for=""></label><input type="text" name="" id=""></div>
+    <div class="group"><label for=""></label><input type="number" name="" id=""></div>
+</form>
+
+
+<!--link--> 
+<link rel="stylesheet" href="">
+
+
+<!--link:css--> 
+<link rel="stylesheet" href="style.css">
+
+
+
+<!----> 
+</body>
+</html>
