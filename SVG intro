@@ -1,0 +1,22 @@
+
+SVG introduction contained within the link
+https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-svg
+
+
+
+
+Referenced resources
+List of all SVG elements:
+https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element
+
+Many(not all) SVG attributes can be changed through CSS
+https://css-tricks.com/svg-properties-and-css/
+
+"There are lots of great free SVG icon libraries, such as Material icons(https://fonts.google.com/icons) and Feather icons(https://feathericons.com/).
+
+If you want to get started making your own or editing SVGs, you’ll want some sort of visual editor like Yann Armelin’s SVG path editor. It’s great for tinkering around with simpler SVGs but not designed for complex graphics.
+https://yqnn.github.io/svg-path-editor/
+
+Josh Comeau’s A Friendly Introduction to SVG is a beginner-friendly guide with interactive demos covering shapes, scaling, and animations with SVGs(https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/)."
+
+
